@@ -10,7 +10,7 @@ it("returns the beer if the person is at least 18 years old", () => {
   expect(getBeer(person)).toBe("🍺");
 });
 
-it("throws an error when the person is under  18 years old", () => {
+it("throws an error when the person is under 18 years old", () => {
   const person = {
     name: "Maciek",
     age: 16,
