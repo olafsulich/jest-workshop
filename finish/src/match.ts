@@ -13,3 +13,10 @@ export function getGreatestPlayer(players: Player[]) {
   });
   return playerWithHighestScore;
 }
+
+export function getTotalScore(players: Player[]) {
+  const totalScore = players.reduce((prev, curr) => {
+    return prev + curr.points;
+  }, 0);
+  return totalScore;
+}
