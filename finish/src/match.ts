@@ -1,4 +1,7 @@
-import type { Player } from "../types/types";
+type Player = {
+  name: string;
+  points: number;
+};
 
 export function getAllPlayers<T extends Player[], U extends Player[]>(
   team1: T,
