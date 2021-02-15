@@ -1,6 +1,6 @@
-type Person = {
-  name: string;
-  age: number;
+export type Person = {
+  readonly name: string;
+  readonly age: number;
 };
 
 export function getBeer(person: Person) {

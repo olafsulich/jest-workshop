@@ -1,4 +1,6 @@
-export const team1 = [
+import type { Player } from "../src/match";
+
+export const team1: Player[] = [
   { name: "Jerami Grant", points: 14 },
   { name: "Blake Griffin", points: 23 },
   { name: "Mason Plumlee", points: 17 },
@@ -6,7 +8,7 @@ export const team1 = [
   { name: "Derrick Rose", points: 14 },
 ];
 
-export const team2 = [
+export const team2: Player[] = [
   { name: "Lebron James", points: 22 },
   { name: "Kyle Kuzma", points: 22 },
   { name: "Dennis Schroder", points: 10 },
@@ -14,7 +16,7 @@ export const team2 = [
   { name: "Montrezl Harrell", points: 8 },
 ];
 
-export const allPlayers = [
+export const allPlayers: Player[] = [
   { name: "Jerami Grant", points: 14 },
   { name: "Blake Griffin", points: 23 },
   { name: "Mason Plumlee", points: 17 },

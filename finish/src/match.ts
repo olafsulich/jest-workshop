@@ -1,12 +1,9 @@
-type Player = {
-  name: string;
-  points: number;
+export type Player = {
+  readonly name: string;
+  readonly points: number;
 };
 
-export function getAllPlayers<T extends Player[], U extends Player[]>(
-  team1: T,
-  team2: U
-) {
+export function getAllPlayers(team1: Player[], team2: Player[]) {
   return [...team1, ...team2];
 }
 
