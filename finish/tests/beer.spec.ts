@@ -1,7 +1,7 @@
 import { getBeer, Person } from "../src/beer";
 
 describe("getBeer", () => {
-  it("returns the beer if the person is at least 18 years old", () => {
+  it("returns a beer if the person is at least 18 years old", () => {
     const person: Person = {
       name: "Olaf",
       age: 20,
