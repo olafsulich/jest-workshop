@@ -12,7 +12,7 @@ Repo created especially for my [Jest series]('https://frontlive.pl/kategorie/jes
 
 ```bash
 
-git clonehttps://github.com/olafsulich/jest-workshop.git
+git clone https://github.com/olafsulich/jest-workshop.git
 
 npm install
 
