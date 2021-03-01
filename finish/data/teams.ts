@@ -28,3 +28,13 @@ export const allPlayers: Player[] = [
   { name: "Talen Horton-Tucker", points: 13 },
   { name: "Montrezl Harrell", points: 8 },
 ];
+
+export const player1: Player = {
+  name: "Kyle",
+  points: 12,
+};
+
+export const player2: Player = {
+  name: "Mike",
+  points: 18,
+};
