@@ -8,6 +8,10 @@
 
 Repo created especially for my [Jest series]('https://frontlive.pl/kategorie/jest').
 
+[Lecture 1 - basics](https://github.com/olafsulich/jest-workshop/tree/01-pierwszy-test)
+
+[Lecture 2 - mock functions](https://github.com/olafsulich/jest-workshop/tree/02-mock-functions)
+
 ## Installation
 
 ```bash
